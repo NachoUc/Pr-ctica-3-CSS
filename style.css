@@ -1,5 +1,5 @@
 
-div{
+div.azul{
     background-color: blue;
     margin-right: 10%;
 }
@@ -8,21 +8,19 @@ h1{
     text-align: center;
     
 }
-span.primero{
+p.primero{
     margin-right: 60%;
-    display: inline-flex;
     background-color: aquamarine;
+    
 }
-span.segundo{
+
+p.segundodelsegundo{
+    background-color: black;
     line-height: 200%;
-    display: inline-flex;
     font-family: 'PottaOne', sans-serif;
     color: yellow;
     margin-left: 41%;
-
-}
-p.segundodelsegundo{
-    background-color: black;
+    
 }
 
 @font-face{
@@ -47,4 +45,14 @@ body{
 hr{
     margin-left: 20%;
     margin-right: 20%;
+}
+/* div.izquierda{
+    float: left;
+    
+}
+div.derecha{
+    float: right;
+} */
+div.todo{
+    display: inline-block;
 }
